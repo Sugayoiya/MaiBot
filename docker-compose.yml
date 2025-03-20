@@ -15,7 +15,7 @@ services:
     image: mlikiowa/napcat-docker:latest
 
   mongodb:
-    container_name: mongodb
+    container_name: mongodb:4.4
     environment:
       - TZ=Asia/Shanghai
       # - MONGO_INITDB_ROOT_USERNAME=your_username
