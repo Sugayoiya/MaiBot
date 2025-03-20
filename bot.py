@@ -247,8 +247,8 @@ def raw_main():
     if platform.system().lower() != "windows":
         time.tzset()
 
-    check_eula()
-    print("检查EULA和隐私条款完成")
+    # check_eula()
+    # print("检查EULA和隐私条款完成")
     easter_egg()
     init_config()
     init_env()
